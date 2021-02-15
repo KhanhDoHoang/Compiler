@@ -1,0 +1,91 @@
+Reading file a1r.pls ....Please wait
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  5084
+The current size of the buffer is:  577
+The operational mode of the buffer is:   -1
+The increment factor of the buffer is:  15
+The first symbol in the buffer is:  %
+The value of the flags field is: 3FFF
+
+Printing buffer contents:
+
+%% This program calculates the sum of 32767 even numbers.
+%% The program is "lexically" correct
+%% and should not generate any error
+MAIN {
+ 
+ a=+1.2;
+ 
+ sum008 = 7.87050 ;
+ READ(a,sum008);
+ i=0; 
+ WHILE TRUE (i < 32767 .OR. i == 32767)DO{
+   i = i + 2;
+   a=
+   a*i/0.5
+   ;
+   sum008 = sum008 + a - 1 ;
+ };
+ IF TRUE($text$ == '')THEN {
+   $text$ = 'prog' ++ 'ram';
+ }
+ ELSE {
+   $text$ = $text$ ++ 'ram';
+ };
+ WRITE('\* This is a program -:)-<-<-- \*');
+ WRITE($text$);
+ 
+ IF FALSE ($text$ == 'program'.OR.sum008!=8..AND.i>10)THEN {
+  WRITE(sum008);
+  WRITE();
+ }
+ ELSE{};
+}
+
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  578
+The current size of the buffer is:  578
+The operational mode of the buffer is:   -1
+The increment factor of the buffer is:  15
+The first symbol in the buffer is:  %
+The value of the flags field is: BFFF
+
+Printing buffer contents:
+
+%% This program calculates the sum of 32767 even numbers.
+%% The program is "lexically" correct
+%% and should not generate any error
+MAIN {
+ 
+ a=+1.2;
+ 
+ sum008 = 7.87050 ;
+ READ(a,sum008);
+ i=0; 
+ WHILE TRUE (i < 32767 .OR. i == 32767)DO{
+   i = i + 2;
+   a=
+   a*i/0.5
+   ;
+   sum008 = sum008 + a - 1 ;
+ };
+ IF TRUE($text$ == '')THEN {
+   $text$ = 'prog' ++ 'ram';
+ }
+ ELSE {
+   $text$ = $text$ ++ 'ram';
+ };
+ WRITE('\* This is a program -:)-<-<-- \*');
+ WRITE($text$);
+ 
+ IF FALSE ($text$ == 'program'.OR.sum008!=8..AND.i>10)THEN {
+  WRITE(sum008);
+  WRITE();
+ }
+ ELSE{};
+}
+ÿ

@@ -1,0 +1,50 @@
+Reading file a1r.pls ....Please wait
+The input file a1r.pls has not been completely loaded.
+Last character read from the input file is: I 73
+Input file size: 609
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  200
+The current size of the buffer is:  200
+The operational mode of the buffer is:   0
+The increment factor of the buffer is:  0
+The first symbol in the buffer is:  %
+The value of the flags field is: 3FFF
+
+Printing buffer contents:
+
+%% This program calculates the sum of 32767 even numbers.
+%% The program is "lexically" correct
+%% and should not generate any error
+MAIN {
+ 
+ a=+1.2;
+ 
+ sum008 = 7.87050 ;
+ READ(a,sum008);
+ i=0; 
+ WH
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  201
+The current size of the buffer is:  201
+The operational mode of the buffer is:   0
+The increment factor of the buffer is:  0
+The first symbol in the buffer is:  %
+The value of the flags field is: BFFF
+
+Printing buffer contents:
+
+%% This program calculates the sum of 32767 even numbers.
+%% The program is "lexically" correct
+%% and should not generate any error
+MAIN {
+ 
+ a=+1.2;
+ 
+ sum008 = 7.87050 ;
+ READ(a,sum008);
+ i=0; 
+ WHÿ

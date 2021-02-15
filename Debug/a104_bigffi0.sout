@@ -1,0 +1,30 @@
+Reading file a1bigf.pls ....Please wait
+The input file a1bigf.pls has not been completely loaded.
+Last character read from the input file is:   32
+Input file size: 33609
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  200
+The current size of the buffer is:  200
+The operational mode of the buffer is:   0
+The increment factor of the buffer is:  0
+The first symbol in the buffer is:  L
+The value of the flags field is: 3FFF
+
+Printing buffer contents:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor sapien, sodales et ullamcorper at, pellentesque eu sem. Aenean at dui in justo efficitur eleifend. Nunc ultricies sem egestas eros
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  201
+The current size of the buffer is:  201
+The operational mode of the buffer is:   0
+The increment factor of the buffer is:  0
+The first symbol in the buffer is:  L
+The value of the flags field is: BFFF
+
+Printing buffer contents:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor sapien, sodales et ullamcorper at, pellentesque eu sem. Aenean at dui in justo efficitur eleifend. Nunc ultricies sem egestas erosÿ
