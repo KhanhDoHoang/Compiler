@@ -1,6 +1,6 @@
 # Compiler
 
-### Buffersare often used when developingcompilers because of their efficiency (see page 111 of your textbook). 
+### Buffers are often used when developing compilers because of their efficiency
 ### The buffer implementation is based on two associated data structures: 
 
 * 1)Buffer Entity(or Buffer Handle) and,  *
@@ -20,4 +20,6 @@
 ### These executions must generate filesin the output. 
 ### For instance:
 #### buffer.exea1e.pls f 0 0 > a11e.seva
-*This is especially important because the final comparison is done by files(not only by visual checking), for instance,comparing the following outputs: fc /b a11e.sout a11e.sevaSo, it is required to be sure that files are beinggeneratedok and the outputs can be checked using binary comparison
+*This is especially important because the final comparison is done by files(not only by visual checking), for instance,comparing the following outputs:*
+* fc /b a11e.sout* * a11e.sevaSo *
+*, it is required to be sure that files are beinggeneratedok and the outputs can be checked using binary comparison*
