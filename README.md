@@ -11,7 +11,7 @@
 ### It is necessary to generate a binary that can accept the followingparameters:input file, mode, sizeand increment.
 ### The standard testsare composed by the following parameters in the execution:
 
-* •buffer.exe a1e.pls f 0 0 *
-* •buffer.exe a1r.pls f 0 0 *
-* •buffer.exe a1r.pls a 0 0 *
-* •buffer.exe a1r.pls m 0 0 *
+* buffer.exe a1e.pls f 0 0 *
+* buffer.exe a1r.pls f 0 0 *
+* buffer.exe a1r.pls a 0 0 *
+* buffer.exe a1r.pls m 0 0 *
