@@ -17,4 +17,7 @@
 * buffer.exe a1r.pls m 0 0 *
 
 
-### These executions must generate filesin the output. For instance:buffer.exea1e.pls f 0 0 > a11e.sevaThis isespeciallyimportant because the final comparison is done by files(not only by visual checking), for instance,comparing the following outputs:fc /b a11e.sout a11e.sevaSo, it is required to be sure that files are beinggeneratedok and the outputs can be checked using binary comparison
+### These executions must generate filesin the output. 
+### For instance:
+#### buffer.exea1e.pls f 0 0 > a11e.seva
+*This is especially important because the final comparison is done by files(not only by visual checking), for instance,comparing the following outputs: fc /b a11e.sout a11e.sevaSo, it is required to be sure that files are beinggeneratedok and the outputs can be checked using binary comparison
