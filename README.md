@@ -2,7 +2,8 @@
 
 ### Buffersare often used when developingcompilers because of their efficiency (see page 111 of your textbook). 
 ### The buffer implementation is based on two associated data structures: 
-* 1) Buffer Entity(or Buffer Handle) and,  *
+
+* 1)Buffer Entity(or Buffer Handle) and,  *
 * 2)Array of characters(the actual character buffer). Both structures areto be created “on demand” at runtime, thatis, they are to be allocated dynamically. *
 * The Buffer Descriptor or Buffer Handle -the names suggest the purpose of this buffer control data structure. *
 * Itcontains all the necessary information about the array ofcharacters, includinga pointerto the beginning of the character array location in memory, the current size, the next character entry position, the increment factor, the operational mode and some additional parameters *
