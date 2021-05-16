@@ -7,7 +7,7 @@
 * File name: buffer.c
 * Compiler: MS Visual Studio 2019
 * Author: Hoang Do
-* Course: CST 8152 – Compilers, Lab Section: [011, 012, 013, 014]
+* Course: CST 8152 â€“ Compilers, Lab Section: [011, 012, 013, 014]
 * Assignment: A1.
 * Date: Jan 01 2021
 * Professor: Paulo Sousa / Abdulah
@@ -24,7 +24,7 @@
 #include <stdarg.h>
 #include <ctype.h>
 
-int mainParser(int argc, char** argv);
+int mainScanner(int argc, char** argv);
 
 int main(int argc, char** argv) {
 	char debug = 0;
@@ -36,5 +36,5 @@ int main(int argc, char** argv) {
 	}
 
 
-	return mainParser(argc, argv);
+	return mainScanner(argc, argv);
 }
